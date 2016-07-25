@@ -10,9 +10,10 @@ Clone the Repository
 * `git clone https://github.com/Rilsta/Recipe-Ruby.git`
 * Navigate to project directory
 * `$bundle install`
-* `$rake db:create`
+* `$rake db:setup`
 
 For testing
+* `$rake db:test:prepare`
 * `$rspec`
 
 ## License
